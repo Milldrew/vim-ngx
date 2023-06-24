@@ -1,4 +1,4 @@
-function DeleteOnInit() abort
+function! DeleteOnInit() abort
  :w
  :g/ngOnInit/d
  :%s/OnInit//
